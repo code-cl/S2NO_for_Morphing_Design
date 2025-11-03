@@ -1,1 +1,2 @@
-# S2NO_for_Morphing_Design
+# Accurate and diverse shape-morphing programming of soft materials with complex geometries via neural operator
+
