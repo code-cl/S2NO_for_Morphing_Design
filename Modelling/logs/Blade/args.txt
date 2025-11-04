@@ -1,0 +1,27 @@
+model_type: S2NO_spec
+n_layers: 8
+num_lbos: 128
+num_channels: 128
+num_heads: 8
+mlp_ratio: 1
+lbo_path: data/Nodes_LBO_basis
+norm_type: coeff_norm
+space_dim: 3
+x_dim: 4
+y_dim: 3
+n_train: 50000
+n_test: 5000
+save_tedata_size: 5000
+save_trdata_size: 100
+device: cuda
+loss: L2
+batch_size: 16
+learn_rate: 0.001
+epoch: 500
+max_grad_norm: 0.1
+placeholder: True
+initialize_weights: True
+optimizer: AdamW
+scheduler: OneCycleLR
+weight_decay: 1e-05
+

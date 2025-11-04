@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 19 17:09:22 2025
 
-@author: Chenl
-"""
 import torch
 import numpy as np
 import scipy.io as sio
