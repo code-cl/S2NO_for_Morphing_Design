@@ -1,4 +1,4 @@
-# Programming shape morphing of soft materials with complex geometries via neural operator
+# Shape-morphing programming of soft materials on complex geometries via neural operator
 ## Introduction
 We propose a neural-operator-driven design framework that enables accurate and diverse shape-morphing programming for soft materials with complex geometries. The mapping from the material property field to the deformation field is formulated as an operator learning problem. The proposed Spectral and Spatial Neural Operator (S2NO) can enable high-fidelity shape-morphing prediction for soft materials with complex geometries. The efficient forward prediction of S2NO empowers evolutionary algorithms to thoroughly explore the design space, thereby achieving accurate and diverse morphing designs.
 ![image](https://github.com/code-cl/S2NO_for_Morphing_Design/blob/main/S2NO_Design_Framework.png)
